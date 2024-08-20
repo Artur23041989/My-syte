@@ -3,11 +3,25 @@
 <html lang="ru">"
     <head>
         <title>Главная страница</title>
+        <style>
+            td, th {
+                border: solid 1px blue;
+            }
+            th{
+                color: brown;
+            }
+            table {
+                border-collapse: collapse;
+                width: 50%;
+            }
+        </style>
     </head>
 
     <body>
         <h1>Мой первый сайт!</h1>
- 
+ <a href="#table-1">
+   <img src="img/1617026436_29-p-rita-ora-29.jpg" alt="Мое изображение" width="100px" height="100px"/> 
+ </a>
         <p>Новый абзац</p>
         <b>Жирный текст</b>
         <p> 
@@ -18,22 +32,57 @@
         </p>
         <small>Текст чуть меньше разиером</small>    
         <u>Подчеркнутый текст</u>
-        <p>X<sub>i</sub> = Y<sub>2</sub> + Z<sub>2</sub></p>
-    
+        <p>X<sup>i</sup> = Y<sup>2</sup> + Z<sup>2</sup></p>
+    <img src="img/1617026436_29-p-rita-ora-29.jpg" alt="Мое изображение" width="100px" height="100px"/>
         <h2>Ненумерованный список</h2>
         <!--Комментарий не читается браузером-->
         <details>
         <summary>Телефоны</summary>
         <ul style="list-style-type: square; color: rgb(83, 20, 75);">
-            <li style="color: brown;">Iphone 11</li>
-            <li style="color: aqua;">Samsung</li>
-            <li style="color: brown;">LG</li>
-            <li>Siemens</li>
-            <li>Masda</li>
+        <li style="color: brown;">Iphone 11</li>
+        <li style="color: aqua;">Samsung</li>
+        <li style="color: brown;">LG</li>
+        <li>Siemens</li>
+        <li>Masda</li>
         </ul>
         </details>
-    </body>
 
-    </html>
+    <img src="img/1617026436_29-p-rita-ora-29.jpg" alt="Мое изображение" width="100px" height="100px"/>
+    
+        <table id="table-1" class="table-1">
+            <thead>
+                <tr>
+                    <th>Имя</th>
+                    <th>Фамилия</th>
+                    <th>Телефон</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Артур</td>
+                    <td>Иванушкин</td>
+                    <td>1233333</td>
+                </tr>
+
+                <tr>
+                    <td>Виктор</td>
+                    <td>Иванушкин</td>
+                    <td>555555</td>
+                </tr>
+                <tr>
+                    <td>Люба</td>
+                    <td>Иванушкина</td>
+                    <td>67855858</td>
+                </tr>
+                <tr>
+                    <td>Леха</td>
+                    <td><img src="img/1617026436_29-p-rita-ora-29.jpg" width="50px"></td>
+                    <td>7879695754</td>
+                </tr>
+            </tbody>
+        </table>
+</body>
+
+</html>
     
 
